@@ -46,12 +46,8 @@ Run the script:
 
 **API Information**
 
-Open-Meteo Geocoding API:
-
+Open-Meteo Geocoding API:  
 Converts user-provided city, state, and country into latitude and longitude coordinates.
 
-API Documentation
-
-Open-Meteo Weather Forecast API:
-
+Open-Meteo Weather Forecast API:  
 Retrieves current weather data (temperature, conditions, etc.) based on coordinates.
