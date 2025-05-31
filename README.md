@@ -21,7 +21,8 @@ You can use Weather App either from the Node.js terminal or through a browser in
 Navigate to the project directory:
 - cd weather-app
 - Install dependencies:
-   ```bash npm install
+   ```bash 
+   npm install
 
 Run the application:
 - For terminal usage: see Usage
@@ -36,14 +37,21 @@ Run the script:
 
 **Browser Interface**
 - Open index.html in your preferred web browser.
-- Enter the city, state (optional), and country in the provided form.
+- Run server in terminal
+   ```bash
+   node server.js
+- Enter the city, state (optional), and country in the provided form on the browser.
 - Click the "Get the Weather!" button.
 - View the temperature, weather description, and a fun statement on the page.
 
 **API Information**
+
 Open-Meteo Geocoding API:
+
 Converts user-provided city, state, and country into latitude and longitude coordinates.
+
 API Documentation
+
 Open-Meteo Weather Forecast API:
+
 Retrieves current weather data (temperature, conditions, etc.) based on coordinates.
-API Documentation
