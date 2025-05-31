@@ -1,0 +1,30 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "CLI weather app using Open-Meteo APIs",
+  "main": "get_city_temperature.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node get_city_temperature.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "weather",
+    "cli",
+    "jest",
+    "node"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^2.6.11",
+    "node-localstorage": "^3.0.5",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

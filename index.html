@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MY WEATHER APP</h1>
+    <input type="text" id="cityField" placeholder="Enter city" />
+    <input type="text" id="stateField" placeholder="Enter state (optional)" />
+    <input type="text" id="countryField" placeholder="Enter country (e.g., US)" />
+    <button onclick="getWeather(event)">Get the Weather!</button>
+    <div id="weatherResult"></div>
+  </div>
+  <script src="weather_app.js"></script>
+</body>
+</html>
